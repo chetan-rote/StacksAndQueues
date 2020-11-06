@@ -17,6 +17,13 @@ namespace StacksAndQueues
             stack.Push(30);
             stack.Push(56);
             stack.Display();
+            ///UC2 Ability to peak and pop from stack.
+            stack.Size();
+            stack.Peak();
+            stack.Pop();
+            Console.WriteLine("Stack :");
+            stack.Display();
+            stack.Size();
         }
     }
 }
